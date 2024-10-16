@@ -1,6 +1,6 @@
 body
   {
-    background-color: rgb(193, 250, 231);
+    background-color: rgb(228, 254, 245);
   }
   #calculator
   {
@@ -10,17 +10,20 @@ body
     border-radius: 10px;
     width: 28vw;
     padding: 30px;
-    font-family: "Roboto", sans-serif;
+    font-family: "Kanit", sans-serif;
     font-size: 18px;
     font-weight: bold;
   }
   h2 
   {
+    font-family: "Playfair Display", serif;
     color: cadetblue;
     text-align: center;
   }
   p
   {
+    text-align: center;
+    font-family: "Playfair Display", serif;
     color: cadetblue;
   }
 
@@ -28,19 +31,22 @@ body
   {
    
     color:cadetblue;
-     /* padding-bottom: 10px; */
+     padding: 10px;
     margin-bottom: 10px; 
-    /* margin: 5px auto;
-    display: block; */
-
+  }
+  label:hover
+  {
+    color:rgb(13, 59, 61);
   }
 
   input[type="number"]
   {
+    font-size: 20px;
+    margin:10px;
     font-family: "Poppins", sans-serif;
-    /* border-radius: 10px; */
+    border-radius: 4px;
     width: 400px;
-    height: 25px;
+    height: 28px;
     color:cadetblue;
     border-color: black;
     font-family: 'Times New Roman', Times, serif;
@@ -48,13 +54,17 @@ body
   
   button
   {
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-bottom: 10px;
     font-family: 'Courier New', Courier, monospace;
     font-weight: bold;
     font-size: 20px;
     background-color: #4caf50;
+    color:white;
     border-radius: 10px;
-    width: 380px;
-    height: 30px;
+    width: 410px;
+    height: 34px;
   }
   button:hover
   {
